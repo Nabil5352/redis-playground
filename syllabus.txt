@@ -1,0 +1,48 @@
+GET
+SET/MSET
+
+RENAME
+
+EXPIRE (seconds)
+TTL
+
+SETEX (variable) (seconds) (value)
+
+PERSIST
+
+(list)
+LPUSH/RPUSH
+LPOP/RPOP
+LLEN
+LRANGE
+LINSERT
+
+(set)
+SADD
+SISMEMBER
+SMEMBERS
+SCARD (cardinality: like length of list)
+SMOVE
+SREM
+SDIFF
+SPOP
+
+(sorted set)
+ZADD
+ZRANK
+ZRANGE
+ZINCRBY
+
+
+(hash)
+HSET/HMSET
+HGET/HGETALL
+HKEYS
+HINCRBY
+HDEL
+HLEN
+
+
+SAVE
+FLUSHALL
+
